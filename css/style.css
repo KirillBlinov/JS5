@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    font-size: 15px;
+    background-color: rgb(221, 221, 221);
+}
+.container{
+    max-width: 450px;
+    width: 90%;
+    margin: auto;
+}
+.section{
+    margin-bottom: 20px;
+}
+.div-input{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.price,.name, .kolvo,.select-month,.usluga{
+    width: 240px;
+    height: 30px;
+    background-color: #fff;
+    border-color: black;
+    border:1px solid;
+    color:black;
+}
+.div-button{
+    display: flex;
+    justify-content: end;
+    
+
+    
+}
+.calculation{
+    margin-right: 17%;
+    
+}
+
+.select-month{
+    
+    border-color: black;
+    
+}
+.label-price{
+    margin-left: 20px;
+}
+.input-price{
+margin-left: 60px;
+height: 30px;
+width: 100px;
+border-color: black;
+    border:1px solid;
+    color:black;
+    background-color: #fff; 
+
+}

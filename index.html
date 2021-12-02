@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Каляка Маляка</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="header-title container">
+            <h4 class="title-text">Расчёт стоимости</h4>
+        </header>
+        <main class="main container">
+            <section class="section">
+                <div class="div-input">
+                    <label for="" class="input-label">Месяц</label>
+                    <select class="select-month">
+                        <option value="Январь">Январь</option>
+                        <option value="Февраль">Февраль</option>
+                        <option value="Март">Март</option>
+                        <option value="Апрель">Апрель</option>
+                        <option value="Май">Май</option>
+                        <option value="Июнь">Июнь</option>
+                        <option value="Июль">Июль</option>
+                        <option value="Август">Август</option>
+                        <option value="Сентябрь">Сентябрь</option>
+                        <option value="Октябрь">Октябрь</option>
+                        <option value="Ноябрь">Ноябрь</option>
+                        <option value="Декабрь">Декабрь</option>
+                    </select>
+                </div>
+            </section>
+            <section class="section">
+                <div class="div-input">
+                    <label for="" class="input-label">Стоимость 1 дня:</label>
+                    <input type="number" class="price" disabled value=""> 
+                </div>
+            </section>
+            <section class="section">
+                <div class="div-input">
+                    <label for="" class="input-label">ФИО ребёнка</label>
+                    <input type="text" class="name" >
+                </div>
+            </section>
+            <section class="section">
+                <div class="div-input">
+                    <label for="" class="input-label">Количество дней</label>
+                    <input type="number" class="kolvo" min="1" oninput="validity.valid||(value='');" max="31" value="1" >
+                </div>
+            </section>
+            <section class="section">
+                <div class="div-input">
+                    <label for="" class="input-label">Дополнительная услуга</label>
+                    <select class="usluga">
+                        <option value="Нет">Нет</option>
+                        <option value="Веселый мяч">Веселый мяч</option>
+                        <option value="Каляка-маляка">Каляка-маляка</option>
+                        <option value="Вокал">Вокал</option>
+                    </select>
+                </div>
+            </section>
+            <section class="section">
+                <div class="div-button">
+                    <button class="calculation">Расчитать</button>
+                    <button class="Clear">Очистить</button>
+                </div>
+            </section>
+            <section class="section">
+                <div class="div-price">
+                    <label for="" class="label-price">Сумма к оплате за месяц</label>
+                    <input type="text" class="input-price" disabled value="">
+                </div>
+            </section>
+        </main>
+        <script src="js/script.js"></script>
+    </body>
+</html>
